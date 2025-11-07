@@ -23,7 +23,7 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
-    <th>BBS_Computer_Type_Focus</th>
+    <th>Computer Type Focus</th>
     <th>Host System Type</th>
     <th>OS</th>
     <th>Last Connected (Telnet)</th>
