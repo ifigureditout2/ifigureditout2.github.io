@@ -3,7 +3,7 @@
 
 <head>
 
-  <link href="style.css" rel="stylesheet" />
+<!--  <link href="style.css" rel="stylesheet" />-->
 
   <style>
     table {
@@ -13,6 +13,15 @@
   </style>
 
 </head>
+
+<head>
+  <title>Page Title</title>
+  <style>
+    body {background-color: powderblue;}
+    h1 {color: red;}
+    p {color: blue;}
+  </style>
+</head>  
 
 <body>
 
