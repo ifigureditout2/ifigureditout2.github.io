@@ -6,13 +6,14 @@
 
 <h1>The option element</h1>
 
-<label for="cars">Choose a car:</label>
+<label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
 
-<select id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
+<select id="BBS_Computer_Type_Focus">
+  <option value="Amiga">Amiga</option>
+  <option value="Commodore">Commodore</option>
+  <option value="Mac">Mac</option>
+  <option value="N/A">N/A</option>
+  <option value="ALL">ALL</option>
 </select>
   
 </body>
