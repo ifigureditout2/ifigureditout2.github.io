@@ -18,6 +18,9 @@
 
 <body>
 
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
 <label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
 <select id="BBS_Computer_Type_Focus">
   <option value="ABCD">ABCD</option>
