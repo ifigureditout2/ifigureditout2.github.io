@@ -2,8 +2,8 @@
 <html>
 
 table {
-  table-layout: fixed;
-  width: 250px;
+  table-layout: auto;
+  width: 100%;
 }
 
 <body>
