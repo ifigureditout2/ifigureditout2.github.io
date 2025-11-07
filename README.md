@@ -10,13 +10,6 @@
       table-layout: auto;
       width: 200%;
     }
-  </style>
-
-</head>
-
-<head>
-  <title>Page Title</title>
-  <style>
     body {background-color: powderblue;}
     h1 {color: red;}
     p {color: blue;}
