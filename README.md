@@ -25,7 +25,8 @@
   <option value="ALL">ALL</option>
 </select>
 
-<table style="table-layout: auto; width: 200%;">
+<!--<table style="table-layout: auto; width: 200%;">-->
+<table>
   <tr>
     <th>#</th>
     <th>BBS Name</th>
