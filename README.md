@@ -2,8 +2,6 @@
 <html>
 <body>
 
-# ifigureditout2.github.io
-
 <label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
 <select id="BBS_Computer_Type_Focus">
   <option value="Amiga">Amiga</option>
