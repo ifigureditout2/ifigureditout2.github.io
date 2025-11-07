@@ -19,7 +19,7 @@
   <option value="ALL">ALL</option>
 </select>
 
-<table style="table-layout: auto;">
+<table style="margin-left: 0; table-layout: auto; width: 100%;">
   <tr>
     <th>#</th>
     <th>BBS Name</th>
@@ -44,5 +44,66 @@
   </tr>
 </table>
 
+<table style="margin-left: 0; table-layout: auto; width: 100%;">
+  <tr>
+    <th>#</th>
+    <th>BBS Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Devastation BBS</td>
+  </tr>
+</table>
+
+<table style="margin-left: 0; table-layout: fixed; width: 100%;">
+  <tr>
+    <th>#</th>
+    <th>BBS Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Devastation BBS</td>
+  </tr>
+</table>
+
+<table style="table-layout: auto; width: 100%;">
+  <tr>
+    <th>#</th>
+    <th>BBS Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Devastation BBS</td>
+  </tr>
+</table>
+
+<table style="margin-left: 0; table-layout: auto;">
+  <tr>
+    <th>#</th>
+    <th>BBS Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Devastation BBS</td>
+  </tr>
+</table>
+
+<table style="margin-left: 0; table-layout: auto; width: 100%;">
+  <tr>
+    <th>#</th>
+    <th>BBS Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Devastation BBS</td>
+  </tr>
+</table>
+
+
 </body>
+
+
+
+
+
 </html>
