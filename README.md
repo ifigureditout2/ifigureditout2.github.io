@@ -4,6 +4,8 @@
 <head>
   <style>
     body {background-color: powderblue;}
+    tr { display: block; float: left; }
+th, td { display: block; }
   </style>
 </head>  
 
