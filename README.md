@@ -19,7 +19,7 @@
   <option value="ALL">ALL</option>
 </select>
 
-<table style="table-layout: auto;">
+<table style=" width: 100%;">
   <tr>
     <th>#</th>
     <th>BBS Name</th>
