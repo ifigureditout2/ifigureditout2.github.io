@@ -46,10 +46,6 @@ th, td { display: block; }
   </tr>
 </table>
 
-<?php
-echo "My first PHP script!";
-?>
-
 </body>
 
 </html>
