@@ -46,6 +46,36 @@ th, td { display: block; }
   </tr>
 </table>
 
+<?php
+
+// Source - https://stackoverflow.com/a
+// Posted by Nigel Ren
+// Retrieved 2025-11-07, License - CC BY-SA 4.0
+
+$str = "<table class=\"table table-hover table-striped\">
+                                         <thead>
+                                         <th>colum1</th>
+                                         <th>colum2</th>
+                                         <th>colum3</th>
+                                         </thead>
+                                         <tbody>
+
+     ";
+$f = fopen("/BBS_Names", "r");
+if ( $f === FALSE ) {
+    exit;
+}
+while ( $row = fgetcsv($f, null, " ") ) {
+    // Ensure all rows have at least 3 cells
+    $row = array_pad($row, 3, "");
+    // Output data in a row
+    $str .= "<tr><td>".implode("</td><td>", $row). "</td></tr>".PHP_EOL;
+}
+$str .= "</tbody></table>";
+echo $str;
+
+?>
+
 </body>
 
 </html>
