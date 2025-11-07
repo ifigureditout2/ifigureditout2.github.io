@@ -6,20 +6,11 @@
 <!--  <link href="style.css" rel="stylesheet" />-->
 
   <style>
-    table {
-      table-layout: auto;
-      width: 200%;
-    }
     body {background-color: powderblue;}
-    h1 {color: red;}
-    p {color: blue;}
   </style>
 </head>  
 
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
 
 <label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
 <select id="BBS_Computer_Type_Focus">
@@ -31,8 +22,7 @@
   <option value="ALL">ALL</option>
 </select>
 
-<!--<table style="table-layout: auto; width: 200%;">-->
-<table>
+<table style="table-layout: auto; width: 200%;">
   <tr>
     <th>#</th>
     <th>BBS Name</th>
