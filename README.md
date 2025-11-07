@@ -15,13 +15,23 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
-    <th>BBS Name</th>
-    <th>BBS Name</th>
-    <th>BBS Name</th>
+    <th>BBS_Computer_Type_Focus</th>
+    <th>Host System Type</th>
+    <th>OS</th>
+    <th>Last Connected (Telnet)</th>
+    <th>telnet</th>
+    <th>SSH</th>
+    <th>Web</th>
   </tr>
   <tr>
-    <td>January</td>
-    <td>$100</td>
+    <td>1</td>
+    <td>Devastation BBS</td>
+    <td>Commodore</td>
+    <td>Antique (386)</td>
+    <td>Linux</td>
+    <td>2024-01-20</td>
+    <td>A</td>
+    <td>A</td>
   </tr>
 </table>
 
