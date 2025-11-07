@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+<style>
 table {
   table-layout: auto;
   width: 100%;
 }
-
+</style>
+  
 <body>
 
 <label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
