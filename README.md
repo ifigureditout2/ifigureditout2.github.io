@@ -48,10 +48,24 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
+    <th>Computer Type Focus</th>
+    <th>Host System Type</th>
+    <th>OS</th>
+    <th>Last Connected (Telnet)</th>
+    <th>telnet</th>
+    <th>SSH</th>
+    <th>Web</th>
   </tr>
   <tr>
     <td>1</td>
     <td>Devastation BBS</td>
+    <td>Commodore</td>
+    <td>Antique (386)</td>
+    <td>Linux</td>
+    <td>2024-01-20</td>
+    <td>TheDevastation12.com:22</td>
+    <td>TheDevastation12.com:23</td>
+    <td>TheDevastation12.com:24</td>
   </tr>
 </table>
 
@@ -59,10 +73,24 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
+    <th>Computer Type Focus</th>
+    <th>Host System Type</th>
+    <th>OS</th>
+    <th>Last Connected (Telnet)</th>
+    <th>telnet</th>
+    <th>SSH</th>
+    <th>Web</th>
   </tr>
   <tr>
     <td>1</td>
     <td>Devastation BBS</td>
+    <td>Commodore</td>
+    <td>Antique (386)</td>
+    <td>Linux</td>
+    <td>2024-01-20</td>
+    <td>TheDevastation12.com:22</td>
+    <td>TheDevastation12.com:23</td>
+    <td>TheDevastation12.com:24</td>
   </tr>
 </table>
 
@@ -70,10 +98,24 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
+    <th>Computer Type Focus</th>
+    <th>Host System Type</th>
+    <th>OS</th>
+    <th>Last Connected (Telnet)</th>
+    <th>telnet</th>
+    <th>SSH</th>
+    <th>Web</th>
   </tr>
   <tr>
     <td>1</td>
     <td>Devastation BBS</td>
+    <td>Commodore</td>
+    <td>Antique (386)</td>
+    <td>Linux</td>
+    <td>2024-01-20</td>
+    <td>TheDevastation12.com:22</td>
+    <td>TheDevastation12.com:23</td>
+    <td>TheDevastation12.com:24</td>
   </tr>
 </table>
 
@@ -81,10 +123,24 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
+    <th>Computer Type Focus</th>
+    <th>Host System Type</th>
+    <th>OS</th>
+    <th>Last Connected (Telnet)</th>
+    <th>telnet</th>
+    <th>SSH</th>
+    <th>Web</th>
   </tr>
   <tr>
     <td>1</td>
     <td>Devastation BBS</td>
+    <td>Commodore</td>
+    <td>Antique (386)</td>
+    <td>Linux</td>
+    <td>2024-01-20</td>
+    <td>TheDevastation12.com:22</td>
+    <td>TheDevastation12.com:23</td>
+    <td>TheDevastation12.com:24</td>
   </tr>
 </table>
 
@@ -92,10 +148,24 @@
   <tr>
     <th>#</th>
     <th>BBS Name</th>
+    <th>Computer Type Focus</th>
+    <th>Host System Type</th>
+    <th>OS</th>
+    <th>Last Connected (Telnet)</th>
+    <th>telnet</th>
+    <th>SSH</th>
+    <th>Web</th>
   </tr>
   <tr>
     <td>1</td>
     <td>Devastation BBS</td>
+    <td>Commodore</td>
+    <td>Antique (386)</td>
+    <td>Linux</td>
+    <td>2024-01-20</td>
+    <td>TheDevastation12.com:22</td>
+    <td>TheDevastation12.com:23</td>
+    <td>TheDevastation12.com:24</td>
   </tr>
 </table>
 
