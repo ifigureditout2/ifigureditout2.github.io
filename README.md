@@ -11,7 +11,7 @@
 
 <label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
 <select id="BBS_Computer_Type_Focus">
-  <option value="AB">AB</option>
+  <option value="ABc">ABc</option>
   <option value="Amiga">Amiga</option>
   <option value="Commodore">Commodore</option>
   <option value="Mac">Mac</option>
@@ -19,7 +19,7 @@
   <option value="ALL">ALL</option>
 </select>
 
-<table style="margin-left: 0; table-layout: auto; width: 100%;">
+<table style="table-layout: auto;">
   <tr>
     <th>#</th>
     <th>BBS Name</th>
