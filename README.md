@@ -46,6 +46,7 @@ th, td { display: block; }
   </tr>
 </table>
 
+<script>
 d3.text("BBS_Connection_Info.csv", function(data) {
   var parsedCSV = d3.csv.parseRows(data);
   var container = d3.select("body")
@@ -58,7 +59,8 @@ d3.text("BBS_Connection_Info.csv", function(data) {
     .append("td")
     .text(function(d) { return d; });
 });   
-
+</script>
+  
 </body>
 
 </html>
