@@ -46,18 +46,33 @@ th, td { display: block; }
   </tr>
 </table>
 
+  <table data-csv=BBS_Connection_Info.csv></table>
+
 <script>
-d3.text("BBS_Connection_Info.csv", function(data) {
-  var parsedCSV = d3.csv.parseRows(data);
-  var container = d3.select("body")
-    .append("table")
-    .selectAll("tr")
-    .data(parsedCSV).enter()
-    .append("tr")
-    .selectAll("td")
-    .data(function(d) { return d; }).enter()
-    .append("td")
-    .text(function(d) { return d; });
+
+const CsvToTable = async (tableElement) => {
+  try {
+    const req = await fetch(tableElement.dataset.csv, {
+      method: 'get',
+      headers: { 'content-type': 'text/csv;charset=UTF-8' }
+    });
+    if (req.status === 200) {
+      const csv = await req.text();
+      let myTableArray = csv.split('\n');
+      let myTable = `<thead><tr><th>${myTableArray.replaceAll(';', '<th>')}</tr></thead><tbody>`;
+      myTableArray.shift();
+      myTableArray.forEach((aktRow) => {
+        myTable += `<tr><td>${aktRow.replaceAll(';', '<td>')}</tr></tbody>`;
+      });
+      document.querySelector('table').insertAdjacentHTML('afterBegin', myTable);
+    } else {
+      console.log(`Error code ${req.status}`);
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+CsvToTable(document.querySelector('[data-csv]'));
 });   
 </script>
   
