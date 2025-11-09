@@ -13,7 +13,7 @@ th, td { display: block; }
 
 <label for="BBS_Computer_Type_Focus">Choose a BBS Computer Type Focus:</label>
 <select id="BBS_Computer_Type_Focus">
-  <option value="AB">AB</option>
+  <option value="AcB">ABc</option>
   <option value="Amiga">Amiga</option>
   <option value="Commodore">Commodore</option>
   <option value="Mac">Mac</option>
@@ -34,7 +34,7 @@ th, td { display: block; }
     <th>Web</th>
   </tr>
   <tr>
-    <td>1</td>
+    <td style="text-align: center;">1</td>
     <td>Devastation BBS</td>
     <td>Commodore</td>
     <td>Vintage (386)</td>
